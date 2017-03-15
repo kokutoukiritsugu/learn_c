@@ -2,8 +2,6 @@
 
 void squeeze(char[], char[]);
 
-void squeeze1(char[], char[]);
-
 unsigned int any(char[], char[]);
 
 int main() {
@@ -29,14 +27,6 @@ void squeeze(char s1[], char s2[]) {
 
     }
     s1[k] = '\0';
-}
-
-void squeeze1(char s1[], char s2[]) {
-    int i = 0;
-    int j = 0;
-    int k = 0;
-
-
 }
 
 unsigned int any(char s1[], char s2[]) {
